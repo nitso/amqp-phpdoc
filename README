@@ -5,5 +5,3 @@ Include in your project to use autocompletion functions in your favourite IDE.
 
 Some classes have one method declared on the top class PHPDoc block, either it causes fatal errors :)
 It is the `declare` method.
-
-Master branch contains documentation for versions below 1.0. For later version checkout 1.0 branch.
