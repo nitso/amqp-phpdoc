@@ -33,11 +33,11 @@ class AMQPQueue {
 
     /**
      * Create an instance of an AMQPQueue object
-     * @param AMQPConnection $amqp_connection
+     * @param AMQPChannel $amqp_channel
      * @throws AMQPChannelException if the channel is not open.
      * @throws AMQPConnectionException if the connection to the broker was lost.
      */
-    public function __construct(AMQPConnection $amqp_connection) {}
+    public function __construct(AMQPChannel $amqp_channel) {}
 
     /**
      * Consume messages from a queue
